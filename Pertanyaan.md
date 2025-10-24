@@ -32,3 +32,22 @@ Alur kerja:
     } else {
         tidakLulus++;
     }
+
+**--PERCOBAAN 2--**
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut: 
+if (nilai < 0 || nilai > 100) {
+    System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+    continue;
+}
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE? 
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE akan berjalan?
+4.  Modifikasi kode program sehingga apabila terdapat mahasiswa yang mendapat nilai A, program menampilkan pesan tambahan "Bagus, pertahankan nilainya"! 
+5. Commit dan push kode program ke Github 
+
+**Jawaban:**
+1. Fungsi dari potongan tersebut:
+- if (nilai < 0 || nilai > 100) program menggunakan operator logika OR untuk memeriksa nilai yang diinputan berada diluar rentang 0 hingga 100. Jika kondisi bersifat true program akan mencetak "Nilai tidak valid. Masukkan lagi nilai yang valid!". Karena nilai tersebut bersifat false program akan mengeksekusi sintaks continue yang dimana berfungsi untuk mengulang kembali pertanyaan awal.
+2. Apabila posisi i++ diletakkan diawal, program akan menyelesaikan increantment i++ lalu di baris print menambahkan lagi nilai dengan angka 1 sehingga output yang dicetak adalah "Masukkan nilai mahasiswa ke-2: ". i++ ditulis diakhir bertujuan ketika menginputkan satu nilai, program akan melakukan perulangan ke mahasiswa selanjutnya.
+3. Total perulangan WHILE sebanyak 19 kali. Program akan terus berjalan selama kondisi i < 19 bersifat true.
+4. Saya menambahkan kode program:
+System.our.println(:Bagus, pertahankan nilainya);
