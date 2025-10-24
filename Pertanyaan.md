@@ -46,8 +46,20 @@ if (nilai < 0 || nilai > 100) {
 
 **Jawaban:**
 1. Fungsi dari potongan tersebut:
-- if (nilai < 0 || nilai > 100) program menggunakan operator logika OR untuk memeriksa nilai yang diinputan berada diluar rentang 0 hingga 100. Jika kondisi bersifat true program akan mencetak "Nilai tidak valid. Masukkan lagi nilai yang valid!". Karena nilai tersebut bersifat false program akan mengeksekusi sintaks continue yang dimana berfungsi untuk mengulang kembali pertanyaan awal.
+if (nilai < 0 || nilai > 100) program menggunakan operator logika OR untuk memeriksa nilai yang diinputan berada diluar rentang 0 hingga 100. Jika kondisi bersifat true program akan mencetak "Nilai tidak valid. Masukkan lagi nilai yang valid!". Karena nilai tersebut bersifat false program akan mengeksekusi sintaks continue yang dimana berfungsi untuk mengulang kembali pertanyaan awal.
 2. Apabila posisi i++ diletakkan diawal, program akan menyelesaikan increantment i++ lalu di baris print menambahkan lagi nilai dengan angka 1 sehingga output yang dicetak adalah "Masukkan nilai mahasiswa ke-2: ". i++ ditulis diakhir bertujuan ketika menginputkan satu nilai, program akan melakukan perulangan ke mahasiswa selanjutnya.
 3. Total perulangan WHILE sebanyak 19 kali. Program akan terus berjalan selama kondisi i < 19 bersifat true.
 4. Saya menambahkan kode program:
 System.our.println(:Bagus, pertahankan nilainya);
+
+**--PERCOBAAN 3--**
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali adalah “batal”, maka berapa kali perulangan dilakukan? 
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE? 
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen inisialisasi dan update? 
+
+**Jawaban:**
+1. Program melakukan perulangan satu kali, karena menggunakan DO-WHILE yang dimana program dijalankan terlebih dahulu, setelah itu baru  memeriksa kondisinya. 
+2. kondisi berhenti pada program terjadi pada break, karena  apabila kondisi terpenuhi maka program menjalankan kondisi break atau menghentikan eksekusi perulangan tersebut.
+3. Apabila kondisi bernilai true, program akan terus melakukan perulangan terus menerus atau disebut infinite loop.
+4. Karena kondisi tersebut infinite loop, sehingga sifatnya akan selalu bersifat TRUE sehingga tidak diperlukan inisialisasi.
